@@ -34,13 +34,13 @@ import matplotlib.pyplot as plt
 import dm4bem
 
 # Inputs
-controller = True
+controller = False
 indoor_air_capacity = False
-glass_capacity = False
+glass_capacity = True
 insulation_width = 0.08  # m
 
-date_start = '2000-02-01 12:00'
-date_end = '2000-02-07 12:00'
+date_start = '2000-07-01'
+date_end = '2000-07-05'
 
 # get insulation width from wall_types.csv
 df = pd.read_csv("bldg/wall_types.csv")
